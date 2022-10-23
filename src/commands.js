@@ -171,7 +171,7 @@ function help(input) {
 
 function search(input) {
   const { command, flags } = extractFlags(input, {
-    e: "string",
+    e: "https://duckduckgo.com",
   });
   let currentSearchUrl = searchUrl;
   if (flags.e) {
